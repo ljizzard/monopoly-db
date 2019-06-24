@@ -51,6 +51,9 @@ public class Squares {
 
     }
 
+    public Squares() {
+    }
+
     public Long getId() {
         return id;
     }

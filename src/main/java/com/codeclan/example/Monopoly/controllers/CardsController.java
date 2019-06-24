@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/Cards")
+@RequestMapping(value = "/cards")
 public class CardsController {
 
     @Autowired
