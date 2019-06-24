@@ -36,7 +36,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares wr = new Squares(3,"Whitechapel Road", "brown", 60, 4, 20, 60, 180, 320, 450, 50);
         squaresRepository.save(wr);
 
-        Squares it = new Squares(4, "Income Tax", "tax", 200, 0, 0, 0, 0, 0, 0 ,0 );
+        Squares it = new Squares(4, "Income Tax", "tax",0, 200, 0, 0, 0, 0, 0 ,0 );
         squaresRepository.save(it);
 
         Squares kcs = new Squares(5, "Kings Cross Station", "station", 200,0,0,0,0,0,0, 0);
@@ -138,7 +138,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares pl = new Squares(37, "Park Lane", "darkblue", 350, 35, 175, 500, 1100, 1300, 1500, 200);
         squaresRepository.save(pl);
 
-        Squares st = new Squares(38, "Super Tax", "tax", 100, 0, 0, 0, 0, 0, 0, 0);
+        Squares st = new Squares(38, "Super Tax", "tax", 0, 100, 0, 0, 0, 0, 0, 0);
         squaresRepository.save(st);
 
         Squares m = new Squares(39, "Mayfair", "darkblue", 400, 50, 200, 600, 1400, 1700, 2000, 200);
