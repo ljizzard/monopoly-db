@@ -15,7 +15,7 @@ public class Squares {
     @Column (name = "name")
     private String name;
     @Column (name = "set_color")
-    private String setColor;
+    private String setColour;
     @Column (name  =  "purchase_price")
     private int purchasePrice;
     @Column (name = "rent")
