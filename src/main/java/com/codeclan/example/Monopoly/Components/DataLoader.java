@@ -69,7 +69,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares na = new Squares(14, "Northumberland Avenue", "deeppink", 160, 12, 60, 180, 500, 700, 900, 100);
         squaresRepository.save(na);
 
-        Squares msta = new Squares(15, "Marylebone Station", "station", 0, 0, 0, 0, 0, 0, 0, 0 );
+        Squares msta = new Squares(15, "Marylebone Station", "station", 200, 0, 0, 0, 0, 0, 0, 0 );
         squaresRepository.save(msta);
 
         Squares bs = new Squares(16, "Bow Street", "orange", 180, 14, 70, 200, 550, 750, 950, 100);
@@ -129,7 +129,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares bstr = new Squares(34, "Bond Street", "green", 320, 28, 150, 450, 1000, 1200, 1400, 200);
         squaresRepository.save(bstr);
 
-        Squares lss = new Squares(35, "Liverpool St. Station", "station", 0, 0, 0, 0, 0, 0, 0, 0);
+        Squares lss = new Squares(35, "Liverpool St. Station", "station", 200, 0, 0, 0, 0, 0, 0, 0);
         squaresRepository.save(lss);
 
         Squares c3 = new Squares(36, "Chance", "chance", 0, 0, 0, 0, 0, 0, 0, 0);

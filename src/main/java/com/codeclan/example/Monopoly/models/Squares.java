@@ -14,8 +14,8 @@ public class Squares {
     private int squareNumber;
     @Column (name = "name")
     private String name;
-    @Column (name = "set_colour")
-    private String setColour;
+    @Column (name = "set_color")
+    private String setColor;
     @Column (name  =  "purchase_price")
     private int purchasePrice;
     @Column (name = "rent")
