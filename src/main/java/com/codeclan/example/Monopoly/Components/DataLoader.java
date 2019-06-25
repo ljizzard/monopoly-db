@@ -75,7 +75,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares bs = new Squares(16, "Bow Street", "orange", 180, 14, 70, 200, 550, 750, 950, 100);
         squaresRepository.save(bs);
 
-        Squares cc2 = new Squares(17, "Community Chest", "community Chest", 0, 0,0, 0, 0, 0, 0, 0);
+        Squares cc2 = new Squares(17, "Community Chest", "communitychest", 0, 0,0, 0, 0, 0, 0, 0);
         squaresRepository.save(cc2);
 
         Squares ms = new Squares(18, "Marlborough Street", "orange", 180, 14, 70, 200, 550, 750, 950, 100);
