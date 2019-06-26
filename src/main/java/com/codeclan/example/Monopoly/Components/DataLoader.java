@@ -63,7 +63,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares pm = new Squares(11, "Pall Mall", "deeppink", 140,new ArrayList<Integer>(Arrays.asList(10, 50, 150, 450, 625, 750)),100);
         squaresRepository.save(pm);
 
-        Squares ec = new Squares(12, "Electric Company", "Utility", 150,new ArrayList<Integer>(Arrays.asList(4, 10, 0, 0, 0, 0)), 0);
+        Squares ec = new Squares(12, "Electric Company", "utility", 150,new ArrayList<Integer>(Arrays.asList(4, 10, 0, 0, 0, 0)), 0);
         squaresRepository.save(ec);
 
         Squares w = new Squares(13, "Whitehall", "deeppink", 140,new ArrayList<Integer>(Arrays.asList(10,50,150,450,625, 750)),100);
