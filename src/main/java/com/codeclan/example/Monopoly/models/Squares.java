@@ -1,6 +1,7 @@
 package com.codeclan.example.Monopoly.models;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 
 @Entity
 @Table(name = "squares")
@@ -18,35 +19,23 @@ public class Squares {
     private String setColour;
     @Column (name  =  "purchase_price")
     private int purchasePrice;
-    @Column (name = "rent")
-    private int rent;
-    @Column (name = "house1")
-    private int house1;
-    @Column (name = "house2")
-    private int house2;
-    @Column (name = "house3")
-    private int house3;
-    @Column (name = "house4")
-    private int house4;
-    @Column (name = "hotel")
-    private int hotel;
+    @Column (name = "rents")
+    private ArrayList<Integer> rents;
+
     @Column (name = "build_cost")
     private int buildCost;
 
 
+
+
     public Squares(int squareNumber, String name, String setColour, int purchasePrice,
-                   int rent, int house1, int house2, int house3, int house4,
-                   int hotel, int buildCost){
+                   ArrayList<Integer> rents, int buildCost){
         this.squareNumber = squareNumber;
         this.name = name;
         this.setColour = setColour;
         this.purchasePrice =purchasePrice;
-        this.rent = rent;
-        this.house1 = house1;
-        this.house2 = house2;
-        this.house3 = house3;
-        this.house4 = house4;
-        this.hotel = hotel;
+        this.rents = rents;
+
         this.buildCost = buildCost;
 
     }
@@ -94,55 +83,14 @@ public class Squares {
         this.purchasePrice = purchasePrice;
     }
 
-    public int getRent() {
-        return rent;
+    public ArrayList<Integer> getRents() {
+        return rents;
     }
 
-    public void setRent(int rent) {
-        this.rent = rent;
+    public void setRents(ArrayList<Integer> rents) {
+        this.rents = rents;
     }
 
-
-
-    public int getHouse1() {
-        return house1;
-    }
-
-    public void setHouse1(int house1) {
-        this.house1 = house1;
-    }
-
-    public int getHouse2() {
-        return house2;
-    }
-
-    public void setHouse2(int house2) {
-        this.house2 = house2;
-    }
-
-    public int getHouse3() {
-        return house3;
-    }
-
-    public void setHouse3(int house3) {
-        this.house3 = house3;
-    }
-
-    public int getHouse4() {
-        return house4;
-    }
-
-    public void setHouse4(int house4) {
-        this.house4 = house4;
-    }
-
-    public int getHotel() {
-        return hotel;
-    }
-
-    public void setHotel(int hotel) {
-        this.hotel = hotel;
-    }
     public int getBuildCost() {
         return buildCost;
     }
