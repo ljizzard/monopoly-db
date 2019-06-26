@@ -42,7 +42,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares it = new Squares(4, "Income Tax", "tax", 0, new ArrayList<Integer>(Arrays.asList (200, 0, 0, 0, 0, 0)), 0);
         squaresRepository.save(it);
 
-        Squares kcs = new Squares(5, "Kings Cross Station", "station", 200,new ArrayList<Integer>(Arrays.asList (0,0,0,0,0,0)), 0);
+        Squares kcs = new Squares(5, "Kings Cross Station", "station", 200,new ArrayList<Integer>(Arrays.asList (25,50,100,2000,0,0)), 0);
         squaresRepository.save(kcs);
 
         Squares tai = new Squares(6, "The Angel Islington", "lightblue", 100,new ArrayList<Integer>(Arrays.asList (6,30, 90,270,400,550)), 50);
@@ -63,7 +63,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares pm = new Squares(11, "Pall Mall", "deeppink", 140,new ArrayList<Integer>(Arrays.asList(10, 50, 150, 450, 625, 750)),100);
         squaresRepository.save(pm);
 
-        Squares ec = new Squares(12, "Electric Company", "Utility", 150,new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 0, 0)), 0);
+        Squares ec = new Squares(12, "Electric Company", "Utility", 150,new ArrayList<Integer>(Arrays.asList(4, 10, 0, 0, 0, 0)), 0);
         squaresRepository.save(ec);
 
         Squares w = new Squares(13, "Whitehall", "deeppink", 140,new ArrayList<Integer>(Arrays.asList(10,50,150,450,625, 750)),100);
@@ -72,7 +72,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares na = new Squares(14, "Northumberland Avenue", "deeppink", 160,new ArrayList<Integer>(Arrays.asList(12, 60, 180, 500, 700, 900)), 100);
         squaresRepository.save(na);
 
-        Squares msta = new Squares(15, "Marylebone Station", "station", 200,new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 0, 0)), 0 );
+        Squares msta = new Squares(15, "Marylebone Station", "station", 200,new ArrayList<Integer>(Arrays.asList(25, 50, 100, 200, 0, 0)), 0 );
         squaresRepository.save(msta);
 
         Squares bs = new Squares(16, "Bow Street", "orange", 180,new ArrayList<Integer>(Arrays.asList(14, 70, 200, 550, 750, 950)), 100);
@@ -102,7 +102,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares ts = new Squares(24, "Trafalgar Square", "red", 240,new ArrayList<Integer>(Arrays.asList (20, 100,300,750,925, 1100)),150);
         squaresRepository.save(ts);
 
-        Squares fss = new Squares(25, "Fenchurch St. Station", "station", 200,new ArrayList<Integer>(Arrays.asList (0, 0, 0, 0, 0, 0)),0);
+        Squares fss = new Squares(25, "Fenchurch St. Station", "station", 200,new ArrayList<Integer>(Arrays.asList (25, 50, 100, 200, 0, 0)),0);
         squaresRepository.save(fss);
 
         Squares ls = new Squares(26, "Leicester Square", "yellow", 260,new ArrayList<Integer>(Arrays.asList(22, 110, 330,800,975,1150)),150 );
@@ -111,7 +111,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares cs = new Squares(27, "Coventry Street", "yellow", 260,new ArrayList<Integer>(Arrays.asList(22, 110, 330, 800, 975, 1150)), 150);
         squaresRepository.save(cs);
 
-        Squares ww = new Squares(28, "Water Works", "utility", 150,new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 0, 0)), 0 );
+        Squares ww = new Squares(28, "Water Works", "utility", 150,new ArrayList<Integer>(Arrays.asList(4, 10, 0, 0, 0, 0)), 0 );
         squaresRepository.save(ww);
 
         Squares p = new Squares(29, "Piccadilly", "yellow", 280,new ArrayList<Integer>(Arrays.asList(24, 120, 360, 850, 1025, 1200)), 150 );
@@ -132,7 +132,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares bstr = new Squares(34, "Bond Street", "green", 320,new ArrayList<Integer>(Arrays.asList(28, 150, 450, 1000, 1200, 1400)), 200);
         squaresRepository.save(bstr);
 
-        Squares lss = new Squares(35, "Liverpool St. Station", "station", 200, new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 0, 0)), 0);
+        Squares lss = new Squares(35, "Liverpool St. Station", "station", 200, new ArrayList<Integer>(Arrays.asList(25, 50, 100, 200, 0, 0)), 0);
         squaresRepository.save(lss);
 
         Squares c3 = new Squares(36, "Chance", "chance", 0,new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 0, 0)), 0);
